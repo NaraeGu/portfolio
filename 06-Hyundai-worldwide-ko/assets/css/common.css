@@ -1,0 +1,85 @@
+/* 공통 적용 css */
+body {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-family: 'HyundaiKRRegular','HyundaiKRTextRegular','HyundaiRegular','Malgun Gothic','Dotum','돋움','AppleGothicNeoSD','Apple SD 산돌고딕 Neo','굴림',arial,sans-serif;
+    color: #000;
+    box-sizing: border-box;
+}
+
+ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    position: relative;
+    padding: 0;
+    border: 0;
+    background: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+h2 {
+    line-height: 1;
+    margin: 0;
+    font-weight: normal;
+    font-family: "HyundaiKRMedium","HyundaiMedium";
+}
+
+h4, p {
+    margin: 0;
+}
+
+.clear::after {
+    content: '';
+    clear: both;
+    display: block;
+    float: none;
+}
+
+.bgW {
+    background-color: #fff !important;
+}
+
+.bgBl {
+    background-color: #002c5f !important;
+}
+
+.bgLB {
+    background-color: #f6f3f2 !important;
+}
+
+.colTit {
+    margin-bottom: 10px;
+    font-size: 44px;
+    line-height: 1.2;
+}
+
+.category {
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    color: #002c5f;
+    margin: 0;
+}
+
+.imgArea {
+    width: 352px;
+    font-size: 0;
+}
+
+.secTit {
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 1.3;
+}

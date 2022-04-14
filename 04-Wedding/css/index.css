@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+/* header 영역 */
+.bg_img.a {
+    height: 100%;
+    background: url(../img/wedding_couple.jpg) center;
+    background-size: cover;
+    filter: grayscale(50%);
+}
+
+.bg_img.a .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.txt h1 {
+    color: #fff;
+    font-size: 64px;
+}
+
+.txt h2 {
+    color: #fff;
+}
+
+/* bottom nav 영역 */
+.bottom_nav {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: #fff;
+    opacity: 0.75;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.bottom_nav:hover {
+    opacity: 1;
+}
+
+.bottom_nav a {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.bottom_nav a:hover {
+    background-color: #ccc;
+}
+
+.bottom_nav a:last-child:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+/* section 01 영역 */
+.bg_pink {
+    background-color: #ffdddd;
+    filter: grayscale(50%);
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.sec_wrap {
+    width: 980px;
+    margin: auto;
+}
+
+.sec_wrap h1 {
+    font-weight: bold;
+    color: #757575;
+}
+
+.sec_wrap img {
+    width: 100%;
+    margin: 32px 0;
+    filter: grayscale(50%);
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.sec_wrap p:nth-of-type(1) {
+    text-align: left;
+}
+
+.sec_wrap p a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.sec_wrap p a:hover {
+    color: #000;
+    background: #ccc;
+}
+
+/* section 02 영역 */
+.bg_img.b {
+    position: relative;
+    height: 100%;
+    background: url(../img/flowers.jpg) center;
+    background-size: cover;
+}
+
+.bg_img.b .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+/* section 03 영역 */
+.bg_pink.b .sec_wrap img {
+    margin: 64px 0;
+    border-radius: 8px;
+}
+
+.bg_pink.b .sec_wrap:after {
+    content: '';
+    clear: both;
+    display: block;
+    float: none;
+}
+
+.txt_wrap {
+    float: left;
+    width: 50%;
+}
+
+.txt_wrap p:nth-of-type(1) {
+    text-align: center;
+}
+
+/* section 04 영역 */
+.bg_pink.c {
+    filter: none;
+}
+
+.bg_pink.c h1 {
+    letter-spacing: 4px;
+}
+
+.bg_pink.c p:nth-of-type(1) {
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.bg_pink.c p:nth-of-type(2) {
+    margin: 24px 0;
+}
+
+.bg_pink.c a {
+    color: #fff;
+    opacity: 0.6;
+    background-color: #f44336;
+    display: inline-block;
+    padding: 8px 60px;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+.bg_pink.c a:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+/* footer 영역 */
+footer {
+    color: #fff;
+    background-color: #000;
+    padding: 16px 0 38px 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #4CAF50;
+}

@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+/* top-nav 영역 */
+.top-nav {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    padding: 8px 16px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 
+    0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.top-nav .nav-left {
+    float: left;
+}
+
+.top-nav .nav-right {
+    float: right;
+}
+
+.top-nav a {
+    display: block;
+    float: left;
+    padding: 8px 16px;
+    letter-spacing: 4px;
+}
+
+.top-nav a:hover {
+    background-color: #ccc;
+}
+
+/* home 영역 */
+header {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header .hd-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 16px;
+    text-align: center;
+}
+
+.hd-title h1 {
+    color: #f1f1f1;
+    letter-spacing: 4px;
+}
+
+.hd-title h1 span {
+    padding: 8px 16px;
+}
+
+.hd-title h1 span:first-child {
+    background-color: #000;
+    opacity: 0.75;
+}
+
+/* section 공통 영역 */
+section .sec-wrap1 {
+    max-width: 1500px;
+    padding: 32px 0;
+    margin: 0 auto;
+}
+
+section .sec-wrap1 h3 {
+    padding: 16px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+section .sec-wrap2 {
+    max-width: 1516px;
+    margin: 0 auto;
+}
+
+.sec-wrap2:after {
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}
+
+/* projects 영역 */
+.img-wrap .image {
+    width: 25%;
+    float: left;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.image .img-title {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    padding: 8px 16px;
+    background: #000;
+}
+
+.image img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* about 영역 */
+.card-wrap {
+    width: 25%;
+    float: left;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.card-wrap img {
+    width: 100%;
+    vertical-align: middle;
+    filter: saturate(25%);
+}
+
+.card-wrap p:nth-of-type(1) {
+    opacity: 0.6;
+}
+
+.card-wrap p button {
+    background-color: #f1f1f1;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font: inherit;
+}
+
+.card-wrap p button:hover {
+    background-color: #ccc;
+}
+
+/* contact 영역 */
+form input {
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 16px 0;
+    font: inherit;
+}
+
+form input:first-child {
+    margin: 0;
+}
+
+form button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 16px 0;
+    font: inherit;
+    cursor: pointer;
+}
+
+form button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+form button i {
+    font-style: normal;
+}
+
+.sec03 .sec-wrap2 {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-bottom: 8px;
+}
+
+.sec03 .sec-wrap2 img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* footer 영역 */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: green;
+}
