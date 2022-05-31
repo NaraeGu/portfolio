@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/portfolio/07-Kakao-API/static/js/main.ef938a88.js",
+    "static/media/sample.png": "/portfolio/07-Kakao-API/static/media/sample.34711a726cb018ceaa4d.png",
+    "static/media/noImg.png": "/portfolio/07-Kakao-API/static/media/noImg.ec692fdf273c86a0ba19.png",
+    "index.html": "/portfolio/07-Kakao-API/index.html",
+    "main.ef938a88.js.map": "/portfolio/07-Kakao-API/static/js/main.ef938a88.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ef938a88.js"
+  ]
+}
