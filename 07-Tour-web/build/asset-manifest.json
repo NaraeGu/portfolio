@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/portfolio/07-Tour-web/static/js/main.7aa499fc.js",
+    "static/media/pettour.jpg": "/portfolio/07-Tour-web/static/media/pettour.b9265e2f1df04379d974.jpg",
+    "static/media/koreatour.jpg": "/portfolio/07-Tour-web/static/media/koreatour.789ee875df5289aa3e05.jpg",
+    "static/media/roadtour.jpg": "/portfolio/07-Tour-web/static/media/roadtour.3d15efc5116a118db916.jpg",
+    "static/media/flight.png": "/portfolio/07-Tour-web/static/media/flight.1344d553b043a1465dbc.png",
+    "index.html": "/portfolio/07-Tour-web/index.html",
+    "main.7aa499fc.js.map": "/portfolio/07-Tour-web/static/js/main.7aa499fc.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7aa499fc.js"
+  ]
+}
